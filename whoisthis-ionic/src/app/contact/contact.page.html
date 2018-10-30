@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Follow us on Twitter
+      </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="logo-ionic" slot="start"></ion-icon>
+        @ionicframework
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+      <ion-list-header>
+        <ion-label>
+          Your Coordinates
+        </ion-label>
+      </ion-list-header>
+      <ion-item>
+          {{this.latitude}}
+      </ion-item>
+      <ion-item>
+          {{this.longitude}}
+      </ion-item>
+    </ion-list>
+  
+</ion-content>
